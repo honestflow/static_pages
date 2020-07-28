@@ -43,3 +43,17 @@
 .shortcut li {
   float: left;
 }
+/* header区域 */
+.header {
+  position: relative;
+  height: 105px;
+  background-color: pink;
+}
+.logo {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  width: 175px;
+  height: 56px;
+  background-color: purple;
+}
