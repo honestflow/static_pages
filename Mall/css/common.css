@@ -47,7 +47,6 @@
 .header {
   position: relative;
   height: 105px;
-  background-color: pink;
 }
 .logo {
   position: absolute;
@@ -65,3 +64,126 @@
   /* text-indent: -999px; */
   font-size: 0;
 }
+.search {
+  position: absolute;
+  top: 30px;
+  left: 318px;
+}
+.text {
+  float: left;
+  width: 450px;
+  height: 32px;
+  border: 2px solid #c81523;
+  padding-left: 5px;
+  color: #ccc;
+}
+.search .btn {
+  float: left;
+  width: 70px;
+  height: 36px;
+  background-color: #c81523;
+  border: 0;
+  font-size: 16px;
+  color: #fff;
+}
+.hotwords {
+  position: absolute;
+  top: 72px;
+  left: 318px;
+}
+.hotwords a {
+  margin: 0 10px;
+}
+.shopcart {
+  position: absolute;
+  top: 30px;
+  right: 120px;
+  width: 138px;
+  height: 34px;
+  border: 1px solid #dfdfdf;
+  background-color: #f7f7f7;
+  line-height: 34px;
+  text-align: center;
+}
+.cart {
+  font-family: 'icomoon';
+  padding-right: 10px;
+}
+.arrow {
+  font-family: 'icomoon';
+  margin-left: 10px;
+}
+.count {
+  position: absolute;
+  top: -5px;
+  /* 应该是左侧对齐 ，文字才能往右走显示 */
+  left: 100px;
+  background-color: #e60012;
+  height: 14px;
+  padding: 0 3px;
+  line-height: 14px;
+  color: #fff;
+  border-radius: 7px 7px 7px 0px;
+}
+/* nav start */
+.nav {
+  height: 45px;
+  border-bottom: 2px solid #b2191a;
+}
+.dropdown {
+  width: 209px;
+  height: 45px;
+}
+.dropdown .dt {
+  height: 100%;
+  background-color: #b2191a;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  line-height: 45px;
+}
+.dropdown .dd {
+  height: 465px;
+  background-color: #c81623;
+  margin-top: 2px;
+}
+.menu_item i {
+  float: right;
+  font-family: 'icomoon';
+  font-size: 18px;
+  color: #fff;
+}
+.menu_item {
+  height: 31px;
+  line-height: 31px;
+  margin-left: 1px;
+  padding: 0 10px;
+}
+.menu_item:hover {
+  background-color: #fff;
+}
+.menu_item:hover a {
+  color: #c81623;
+}
+.menu_item a {
+  font-size: 14px;
+  color: #fff;
+}
+.navitems li {
+  float: left;
+}
+.abc {
+  margin-left: 50px;
+  line-height: 31px;
+}
+.abc a {
+  font-size: 17px;
+}
+.abc li {
+  padding: 8px;
+}
+.items1, .items2 {
+  font-weight: 700;
+  color: #E1251B;
+}
+
