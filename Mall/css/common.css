@@ -15,6 +15,16 @@
   font-weight: normal;
   font-style: normal;
 }
+.fl .icomoon {
+  font-family: 'icomoon';
+  font-size: 13px;
+  line-height: 25px;
+  color: #f10215;
+}
+.location span {
+  margin-left: 4px;
+  font-size: 13px;
+}
 .fr .icomoon {
   font-family: 'icomoon';
   font-size: 16px;
@@ -37,7 +47,7 @@
 /* 顶部快捷导航 */
 .shortcut {
   height: 31px;
-  background-color: #f1f1f1;
+  background-color: #e3e4e5;
   line-height: 31px;
 }
 .shortcut li {
@@ -169,21 +179,104 @@
   font-size: 14px;
   color: #fff;
 }
+.navitems {
+  margin-left: 10px;
+}
 .navitems li {
   float: left;
 }
-.abc {
-  margin-left: 50px;
-  line-height: 31px;
+.navitems li a {
+  display: block;
+  height: 45px;
+  padding: 0 11px;
+  line-height: 45px;
+  font-size: 15px;
 }
-.abc a {
-  font-size: 17px;
-}
-.abc li {
-  padding: 8px;
-}
-.items1, .items2 {
+.navitem1, .navitem2 {
+  color: #e1251b;
   font-weight: 700;
-  color: #E1251B;
+}
+.footer {
+  height: 386px;
+  background-color: #f5f5f5;
+  padding-top: 30px;
+}
+.mod_service {
+  height: 79px;
+  border-bottom: 1px solid #ccc;
+}
+.mod_service li {
+  float: left;
+  width: 240px;
+  height: 79px;
+}
+.mod-service-icon {
+  float: left;
+  height: 50px;
+  width: 50px;
+  margin-left: 35px;
+  background: url(../img/icons.png) no-repeat;
 }
 
+.mod_service_zheng {
+  background-position: -253px -3px;
+}
+.mod_service_tit {
+  float: left;
+  margin-left: 5px;
+}
+.mod_service_tit h5 {
+  margin: 5px 0;
+}
+.mod_service_kuai {
+  background-position: -255px -54px; 
+}
+.mod_service_bao {
+  background-position: -257px -105px; 
+} 
+.mod_service_te {
+  background-position: -257px -157px
+}
+.mod_service_bang {
+  background-position: -258px -209px
+}
+.mod_help {
+  height: 178px;
+  border-bottom: 1px solid #ccc;
+}
+.mod_help_nav {
+  float: left;
+  width: 200px;
+}
+.mod_help h5 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+.mod_help_nav li{
+  /* padding: 2px 69px; */
+  margin:3px 0px 3px 68px;
+  font-size: 12px;
+}
+.mod_help_nav img {
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+}
+.mod_copyright {
+  text-align: center;
+}
+.mod_copyright_links {
+  margin: 20px 0 15px 0;
+}
+
+.mod_copyright_split {
+  margin: 0 10px;
+  color: #ccc;
+}
+.mod_copyright_info {
+  line-height: 22px;
+}
