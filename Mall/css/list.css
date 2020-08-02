@@ -102,3 +102,43 @@
   line-height: 50px;
   font-size: 20px;
 }
+.page {
+  margin: 40px 0;
+  text-align: center;
+}
+.page_num a {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  border: 1px solid #ccc;
+  background-color: #f7f7f7;
+}
+.page_num .page_prev,
+.page_num .page_next {
+  width: 83px;
+}
+.page_num .current,
+.page_num .dotted {
+  border: 1px solid transparent;
+  background-color: transparent;
+}
+.page_skip input {
+  width: 42px;
+  height: 36px;
+  border: 1px solid #ccc;
+  text-align: center;
+  /* 过渡写在本身上 谁做动画，给谁做 */
+  transition: all 0.3s;
+}
+/* 表单获得焦点后 */
+.page_skip input:focus {
+  width: 88px;
+  border: 1px solid rgb(83, 168, 248);
+}
+.page_skip button {
+  width: 54px;
+  height: 36px;
+  border: 1px solid #ccc;
+  background-color: #f7f7f7;
+}
