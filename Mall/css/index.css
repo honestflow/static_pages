@@ -289,3 +289,32 @@
 .indicators .current-indicator {
   background-color: #fff;
 }
+.box-bd li {
+  overflow: hidden;
+}
+.box-bd img {
+  transition: all 0.2s;
+}
+.box-bd img:hover {
+  margin-left: 8px;
+}
+/* 电梯导航 */
+.fixedtool {
+  position: fixed;
+  top: 250px;
+  left: 50%;
+  margin-left: -676px;
+  width: 66px;
+  background-color: #fff;
+}
+.fixedtool li {
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  font-size: 12px;
+  border-bottom: 1px solid #ccc;
+}
+.fixedtool .chosen {
+  background-color: #c81623;
+  color: #fff;
+}
