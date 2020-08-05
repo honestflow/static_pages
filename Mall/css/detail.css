@@ -1,1 +1,172 @@
 /* 详情页面的样式 */
+.de_container {
+  padding-top: 20px;
+}
+.crumb_wrap {
+  height: 30px;
+}
+.crumb_wrap a {
+  margin-right: 10px;
+}
+.preview_wrap {
+  height: 590px;
+  width: 402px;
+}
+.preview_list {
+  position: relative;
+  height: 60px;
+  margin-top: 60px;
+}
+.preview_img {
+  height: 400px;
+  width: 400px;
+  border: 1px solid #ccc;
+}
+.list_item {
+  height: 60px;
+  width: 320px;
+  margin: 0 auto;
+}
+.list_item li {
+  float: left;
+  width: 56px;
+  height: 56px;
+  border: 2px solid transparent;
+  margin: 0 2px;
+}
+.list_item li.item_current {
+  border-color: #c81623;
+}
+.arrow_prev,
+.arrow_next {
+  position: absolute;
+  top: 50%;
+  margin-top: -16px;
+  width: 22px;
+  height: 32px;
+}
+.arrow_prev {
+  left: 0;
+  background: url(../img/arrow-prev.png) no-repeat;
+}
+.arrow_next {
+  right: 0;
+  background: url(../img/arrow-next.png) no-repeat;
+}
+.preview_otherinfo {
+  padding-top: 15px;
+}
+.preview_otherinfo a {
+  font-size: 13px;
+  margin-right: 4px;
+}
+.preview_otherinfo i {
+  font-family: 'icomoon';
+  color: #e3393c;
+}
+.iteminfo_wrap {
+  width: 718px;
+}
+.sku_name {
+  font-size: 16px;
+  height: 32px;
+  font-weight: 700;
+}
+.product_news {
+  height: 32px;
+  color: #e12228
+}
+.summary dl {
+  overflow: hidden;
+}
+.summary dt,
+.summary dd {
+  float: left;
+}
+.summary dt {
+  width: 60px;
+  line-height: 36px;
+  padding-left: 10px;
+}
+.summary_price,
+.summary_promotion {
+  position: relative;
+  padding: 10px 0;
+  background-color: #fee9eb;
+}
+.price {
+  font-size: 24px;
+  color: #e12228;
+}
+.summary_price a {
+  color: #c81623;
+}
+.remark {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+}
+.summary_promotion {
+  padding-top: 0;
+}
+.summary_promotion dd {
+  width: 450px;
+  line-height: 36px;
+}
+.summary_promotion em {
+  display: inline-block;
+  width: 40px;
+  height: 22px;
+  background-color: #c81623;
+  text-align: center;
+  line-height: 22px;
+  color: #fff;
+}
+.summary_promotion a {
+  color: #28a3ef;
+}
+.summary_promotion a:hover {
+  text-decoration: underline;
+}
+.summary_support dd,
+.summary_stock dd {
+  line-height: 36px;
+}
+.summary_stock dd {
+  width: 450px;
+  line-height: 36px;
+  font-family: 'icomoon';
+}
+.summary_stock em {
+  font-weight: 700;
+}
+.choose_color a {
+  display: inline-block;
+  width: 80px;
+  height: 41px;
+  line-height: 41px;
+  background-color: #f7f7f7;
+  border: 1px solid #ededed;
+  text-align: center;
+}
+.choose_version, 
+.choose_capacity,
+.choose_way,
+.choose_taozhuang {
+  margin: 6px 0;
+}
+.choose_version a,
+.choose_capacity a,
+.choose_way a,
+.choose_taozhuang a{
+  display: inline-block;
+  height: 32px;
+  padding: 0 12px;
+  background-color: #f7f7f7;
+  border: 1px solid #ededed;
+  text-align: center;
+  line-height: 32px;
+}
+.summary a.chose_current {
+  border-color: #c81623;
+}
